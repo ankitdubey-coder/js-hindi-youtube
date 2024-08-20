@@ -12,14 +12,7 @@ const id = Symbol('1234')
 const anotherId = Symbol('1234')
 // console.log( id === anotherId);
 
-//const bigNumber = 657438922345876542345698765n
-
-
-
-
-
-
-
+//const bigNumber = 6574389223458765423456987
 
 
 
@@ -35,9 +28,49 @@ const heros = ["saktiman","nagraj","doga"];
 }
 
  const myFunction =  function(){
-    console.log("hello World");
+    //console.log("hello World");
     
  }
 
- console.log(typeof bigNumber);
+//  console.log(typeof bigNumber);
+//  console.log(typeof score);
+//  console.log(typeof scoreValue);
+//  console.log(typeof isLoggedIn);
+//  console.log(typeof outsideTemp );
+//  console.log(typeof anotherId );
+//  console.log(typeof myFunction );
+
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++//
+
+    // Stack (Primitive), Heap(Non -primitive) 
+
+    let myYoutubename= "ankitdubeydotcom"
+
+    let anotherName = myYoutubename
+
+    anotherName = "dubey"
+
+    console.log(anotherName);
+    console.log(myYoutubename);
+
+    let userOne = {
+      email: "user@gmail.com", 
+      upi: "user@ybl",  
+    }
+    let userTwo = userOne
+    userTwo.email = "ankitdubey75@gmail.com",
+    console.log(userOne.email);
+    console.log(userTwo.email);
+    
+    
+    
+    
+ 
+ 
+ 
+ 
+ 
+ 
  

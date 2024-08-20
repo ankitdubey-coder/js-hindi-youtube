@@ -5,7 +5,7 @@
 console.log(3
      + 3); // code readability should be high
 
-     console.log("Ankit");
+     //console.log("Ankit");
 
      let name = "Ankit"
      let age = 20
@@ -23,12 +23,29 @@ console.log(3
 
      // Object
 
-     console.log(typeof undefined);  // undefined
-     console.log(typeof null);       // object
+     //console.log(typeof undefined);  // undefined
+     //console.log(typeof null);       // object
+     
+
+// const Product = {
+//      ProducatName : "Urban Ulfami",
+//      price : 207,
+//      discount : 85,
+//      ratting : 4,
+//      Waist_Size : 28,
+// };
+
+// console.log(Product);
+     
      
 
 
-     
-     
+const Linkedin = {
+     profileName : "Ankitdubey07",
+     follower : 333,
+     reach : null,
+     block : undefined
+};
 
-
+// console.log(Linkedin);
+// console.log(Linkedin['block']);
